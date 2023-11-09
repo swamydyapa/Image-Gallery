@@ -1,8 +1,9 @@
+import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Next Image Gallery",
-	description: "Image Gallery using nextJS",
+	title: "Next.JS Image Gallery",
+	description: "This Project is a Image Gallery developed by using nextJS",
 };
 
 export default function RootLayout({
@@ -13,7 +14,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body>
-				<main className="max-w-6xl mx-auto">{children}</main>
+				<main className="max-w-6xl mx-auto ">{children}</main>
 			</body>
 		</html>
 	);
